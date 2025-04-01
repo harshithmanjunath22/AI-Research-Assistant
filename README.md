@@ -74,24 +74,23 @@ The backend is developed using **FastAPI** (Python) and integrates with Azure Op
 
 8. Open your browser and visit http://localhost:3000 to interact with the assistant.
 
-###Usage
-##1. Upload a Document:
+### Usage
+## 1. Upload a Document:
 
-Use the Document Uploader to select and upload a document (PDF, DOCX, or DOC).
+  - Use the Document Uploader to select and upload a document (PDF, DOCX, or DOC).
+  - The backend will parse and summarize the document, storing relevant information and print the summarised information in the UI.
 
-The backend will parse and summarize the document, storing relevant information and print the summarised information in the UI.
+## 2. Customize the Assistant:
 
-##2. Customize the Assistant:
+  - Select the assistant’s personality (factual, friendly, humorous) from the Personality Selector.
 
-Select the assistant’s personality (factual, friendly, humorous) from the Personality Selector.
+## 3. Chat Interface:
 
-##3. Chat Interface:
+  - Ask questions about the document.
 
-Ask questions about the document.
+  - Use the deep research button (magnifying glass icon) to have the assistant fetch additional information online using SerpAPI.
 
-Use the deep research button (magnifying glass icon) to have the assistant fetch additional information online using SerpAPI.
-
-The assistant will respond you with accurate answer
+  - The assistant will respond you with accurate answer
 
 #
 

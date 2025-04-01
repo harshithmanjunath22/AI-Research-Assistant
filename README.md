@@ -44,10 +44,12 @@ The backend is developed using **FastAPI** (Python) and integrates with Azure Op
 2. Create and activate a Python virtual environment:
 
    python -m venv .venv
-      On Windows:
-        .\.venv\Scripts\activate
-      On macOS/Linux:
-         source .venv/bin/activate
+
+   On Windows:
+     .\.venv\Scripts\activate
+
+   On macOS/Linux:
+      source .venv/bin/activate
 
    
 

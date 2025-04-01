@@ -42,7 +42,8 @@ The backend is developed using **FastAPI** (Python) and integrates with Azure Op
    cd AI-Research-Assistant/backend
 
 2. Create and activate a Python virtual environment:
-     python -m venv .venv
+
+   python -m venv .venv
       On Windows:
         .\.venv\Scripts\activate
       On macOS/Linux:

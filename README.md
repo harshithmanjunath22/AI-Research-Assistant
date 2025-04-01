@@ -43,13 +43,57 @@ The backend is developed using **FastAPI** (Python) and integrates with Azure Op
 
 2. Create and activate a Python virtual environment:
 
-   python -m venv .venv
+       python -m venv .venv
 
    On Windows:
-     .\.venv\Scripts\activate
+
+       .\.venv\Scripts\activate
 
    On macOS/Linux:
-      source .venv/bin/activate
+
+       source .venv/bin/activate
+
+3. Install Python dependencies:
+
+       pip install -r requirements.txt
+
+4. Run the backend server:**
+   uvicorn main:app --host 0.0.0.0 --port 8000
+
+5. Navigate to the frontend directory:
+
+       cd frontend
+
+6. Install Node dependencies:
+
+       npm install
+
+7. Run the Next.js development server:
+
+       npm run dev
+
+8. Open your browser and visit http://localhost:3000 to interact with the assistant.
+
+###Usage###
+##1. Upload a Document:##
+
+Use the Document Uploader to select and upload a document (PDF, DOCX, or DOC).
+
+The backend will parse and summarize the document, storing relevant information and print the summarised information in the UI.
+
+##2. Customize the Assistant:##
+
+Select the assistant’s personality (factual, friendly, humorous) from the Personality Selector.
+
+##3. Chat Interface:##
+
+Ask questions about the document.
+
+Use the deep research button (magnifying glass icon) to have the assistant fetch additional information online using SerpAPI.
+
+The assistant will respond you with accurate answer
+
+#
 
    
 

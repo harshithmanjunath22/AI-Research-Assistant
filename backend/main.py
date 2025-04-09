@@ -61,7 +61,7 @@ sessions = {}
 # Persona settings
 PERSONA_SETTINGS = {
     "factual": 0.0,
-    "creative": 0.7,
+    "humorous": 0.7,
     "friendly": 0.5
 }
 
